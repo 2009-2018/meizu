@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/details.css">
+	<script type="text/javascript" src="js/require.js "defer async="true" data-main="js/mainsss.js"></script>
+</head>
+<body>
+	<header class="layout-header clearfix" id="layoutHeader">
+		<div class="mzcontainer">
+			<div class="layout-header-logo">
+				<a target="_blank" href="http://www.meizu.com" class="layout-header-logo-link" alt="魅族科技" data-mtype="wmz_public_yt_logo">
+                <img src="images/logo.png" alt="" style="max-width: 125px;margin-top: 28px;">
+            </a>
+			</div>
+			<ul class="layout-header-service clearfix">
+				<li class="layout-header-service-item layout-header-service-search mz-autocomlete" id="layoutHeaderSearch">
+					<input class="mz-autocomlete-input" placeholder="魅族 16th"></input>
+					<img src="images/serch.png" class="layout-img-search">
+				</li>
+                <li class="layout-header-service-item" id="layoutHeaderUser">
+                <a class="layout-header-service-link" href="//me.meizu.com/member/index" data-mtype="wmz_public_yt_mycenter">
+                    <img src="images/people.png" class="layout-header-service-avatar">
+                </a>
+            </li>
+				<li class="layout-header-service-item layout-header-service-cart" id="layoutHeaderCart">
+				<a class="layout-header-service-link service-cart" href='http://localhost:8080/shop.html'>
+				<img src="images/shop.png" class="layout-font-cart">	
+				<span class="layout-header-service-cart-num" style="line-height: 15px;">0</span>
+				</a>
+				</li>
+			</ul>
+			<ul class="nav clearfix">
+			
+			</ul>
+			<div class="layout-header-nav-downmenu" id="layoutHeaderNavDownmenu"></div>
+		</div>
+	</header>
+
+	<main class="wrapper page-detail">
+		<section class="row container">
+			<div class="preview" id='preview'>
+				<div class="preview-booth">
+            <a href="javascript:;" id="J_imgBooth">
+                           
+            </a>
+        </div>
+       </div>
+
+          <div class="property" id="property">
+        	<div class="property-hd">
+        		
+        	</div>
+            <div class="property-sell">
+            <div class="property-sell-price clearfix">
+                
+               
+            </div>
+           
+           
+        </div>
+            <div class="property-service">
+            	<dl class="property-service-item clearfix">
+                <dt class="vm-metatit">支<span class="s-space"></span><span class="s-space"></span>持
+                </dt>
+                <dd class="mod-bd" id="J_prodService">
+                    <span><i class="iconfont-detail icon-success"></i>花呗分期</span>
+                    
+                        <span><i class="iconfont-detail icon-success"></i>顺丰发货</span>
+                        <span><i class="iconfont-detail icon-success"></i>7天无理由退货</span>
+                </dd>
+            </dl>
+            </div>
+            <div class="property-buy">
+            <p class="vm-message" id="J_message">
+            </p>
+            <dl class="property-buy-quantity">
+                <dt class="vm-metatit">数<span class="s-space"></span><span class="s-space"></span>量
+                </dt>
+                <dd class="clearfix">
+                    <div class="mod-control">
+                        <a title="减少" href="javascript:;" class="vm-minus disabled">-</a>
+                        <input type="text" value="1" id="J_quantity" data-max="99">
+                        <a title="增加" href="javascript:;" class="vm-plus">+</a>
+                    </div>
+                </dd>
+            </dl>
+            <div class="property-buy-action">
+
+                <a data-mtype="store_de_buy" href="javascript:void(0);" id="J_btnBuy" class="btn btn-primary btn-lg mr20" style="display: inline-block;">立即购买</a>
+               
+            </div>
+        </div>
+			</div>
+		</section>
+	</main>
+	<div class="store-cart" style="left: 934.5px;"><p class="store-cart-title">最近加入的商品</p><ul class="store-cart-list">
+</ul><div class="store-cart-footer">
+
+  <span class="store-cart-total">
+    共 <span class="store-cart-count">1</span> 件商品<span class="store-cart-invalid-count">（ 0 件失效 ）</span>
+  </span>
+  <a class="mz-btn success m" href="http://localhost/meizu/dist/shop.html" data-mdesc="页头-购物车展开列表-去购物车结算按钮" data-mtype="store_index_dh_cart_checkout">去购物车</a>
+</div></div>
+</body>
+</html>

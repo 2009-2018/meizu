@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/shop.css">
+	<script type="text/javascript" src="js/require.js "defer async="true" data-main="js/mainss.js"></script>
+</head>
+<body>
+	<div class="layout-header clearfix" id="layoutHeader">
+		<div class="mzcontainer">
+			<div class="layout-header-logo">
+				<a href="#">
+					<img src="images/logo.png" style="max-width:125px;margin-top:  28px;">
+				</a>
+			
+			</div>
+			<ul class="layout-header-bread">
+				<li class="layout-header-bread-block">购物车</li>
+				<li class="layout-header-bread-block">确认订单</li>
+				<li class="layout-header-bread-block">在线支付</li>
+				<li class="layout-header-bread-block">完成</li>
+				</ul>
+		<ul class="layout-header-right">
+		<li class="layout-header-right-item"><a href="#" class="layout-header-right-link">我的订单</a></li>
+		<li class="layout-member signin">
+			<a class="layout-member-link" target="_blank" href="http://me.meizu.com/member/index"><span class="layout-member-username" id="topbarUser">用户639491636</span>的商城<i class="layout-member-triangle"></i></a>
+		</li>
+		</ul>
+		</div>
+	</div>
+	<div class="cart" id="cart">
+		<div class="mzcontainer">
+			<table class="cart-header">
+				<tbody>
+					<tr>
+		    <td class="cart-col-select">
+			<div class="cart-select-all JSelectAll">
+            <div class="mz-checkbox"><span style="color: #FFF">√</span></div>
+            <span class="cart-select-title">全选</span>
+          </div>
+						</td>
+                   <td class="cart-col-price">单价(元)</td>
+                   <td class="cart-col-number">数量</td>
+                   <td class="cart-col-total">小计(元)</td>
+                   <td class="cart-col-ctrl show" id="J-cartHearCtrl">完成</td>
+					</tr>
+
+				</tbody>
+			</table>
+			<ul class="cart-merchant-list" id="merchantList">
+			 <li class="cart-merchant">
+			 <div class="cart-merchant-header"> 
+    <div class="cart-select-all">
+      <div class="mz-checkbox">
+      	<span style="color: #FFF">√</span>
+      </div>
+      <span class="cart-select-title">魅族</span>
+    </div>
+    <div class="cart-select-fee">
+      <span class="cart-free">已免邮费</span>
+    </div>
+    
+  </div>
+    
+
+			 </li>
+				
+			</ul>
+		</div>
+		<div class="cart-footer" id='cartFooter'>
+			<div class="mzcontainer">
+				<div class="cart-footer-left">
+					<div class="cart-select-all JSelectAll">
+            <div class="mz-checkbox"><span style="color: #FFF">√</span></div>
+            <span class="cart-select-title">全选</span>
+          </div>
+          <span class="cart-remove-selected" id="removeSelected">删除选中的商品</span>
+          <span class="cart-footer-count">
+          共<span class="cart-footer-num" id="totalCount">1</span>件商品
+        </span>
+				</div>
+			<div class="cart-footer-right">
+				<span class="cart-footer-sum">
+          已优惠<span class="cart-footer-num red" id="totalDiscount">0.00</span>元，
+          合计(不含运费)：<span class="cart-footer-total" id="totalPrice">0.00</span>
+        </span>
+        <div class="mz-btn success to-order-btn" id="cartSubmit" disabled="disabled">去结算</div>
+			</div>
+			</div>
+		</div>
+	</div>
+<footer class="footer">	
+	      <div class="mzcontainer">
+	      	 <section class="layout-footer-top clearfix">
+	      	 	<ul class="layout-footer-services clearfix"></ul>
+	      	 	<div class="layout-footer-contact">
+        <p class="layout-footer-contact-desc">周一至周日 7:30-24:00</p>
+        <a href="tel:400-788-3333" class="layout-footer-contact-tel">400-788-3333</a>
+        <p>
+          <a href="javascript:void(0);" data-mtype="wmz_public_foot_onservice" class="layout-footer-contact-online" onclick="window.open('https://mwx-api.meizu.com/live-service');">
+            <span class="text">在线客服</span>
+          </a>
+        </p>
+      </div>
+	      	 </section>
+	      	 <section class="layout-footer-bottom clearfix">
+	      	 	<ul class="layout-footer-interlock clearfix">
+	      	 		
+	      	 	</ul>
+	      	 	<div class="layout-footer-copyright clearfix">
+	      	 		<span class="layout-footer-copyright-left">
+          <a class="layout-footer-copyright-link copyright-text">©2018 Meizu Telecom Equipment Co., Ltd. All rights reserved.</a>
+          <a class="layout-footer-copyright-link" >粤ICP备13003602号-2</a>
+          <a class="layout-footer-copyright-link" >合字B2-20170010</a>
+          <a class="layout-footer-copyright-link" >营业执照</a>
+          <a class="layout-footer-copyright-link" >法律声明</a>
+          <a class="layout-footer-copyright-link"><i class="layout-icon-police"></i>粤公网安备 44049102496009 号</a>
+        </span>
+        <ul class="layout-footer-media clearfix"></ul>
+	      	 	</div>
+	      	 </section>
+	      </div>
+	</footer>
+
+</body>
+</html>

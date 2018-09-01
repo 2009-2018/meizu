@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<script type="text/javascript" src="js/require.js "defer async="true" data-main="js/mains.js"></script>
+	<title>Document</title>
+</head>
+<body>
+	 <div id="content" class="content">
+	 	 <div class="ucSimpleHeader" id="header">
+	 	 	<a href="#" class="menzulogo"><i class="i_icon"></i></a>
+	 	 </div>
+       <div class="banner-box">
+       	    <from id="mainForm" class="main-form">
+       	    <div class="tab-title">
+                <a class="linkABlue" id="toAccountLogin" style="color: #32A5E7">账号登录</a>
+                <span class="register-line"></span>
+                <a class="linkAGray" id="toVCodeLogin" style="color:#7f7f7f">账号注册</a>
+            </div>
+           <div class="tip-box" id="box1">
+           	  <i class="err-ico"></i>
+           	  <span class="tip-font" id="box"></span>
+           	  <span class="close-ico"></span>
+           </div>
+           <div class="normalInput cycode-box op">  
+           <div class="cycode-selectbox">
+                    <input class="ipt-account  inp-focus" name="account" id="account" maxlength="50" placeholder="手机号/ Flyme 账号" autocomplete="off">
+                </div>
+         
+           </div>
+            <div class="normalInput cycode-box show-cycode" id="cycode-box" style="display: none">  
+               <div class="cycode-selectbox">
+            <span class="cycode-selected">
+              <input readonly="" class="ipt-cycode" id="cycode" value="+86">
+              <i class="arrow-down"></i>
+            </span>
+            <input id="phone" name="phone" class="ipt-phone inp-focus"  placeholder="手机号码">
+          </div>
+         
+           </div>
+
+          <div class="normalInput fieldInput" style="margin-bottom: 20px;">
+                <input type="password" class="inp-focus" name="password" id="password" maxlength="16" autocomplete="off" placeholder="密码">
+            </div>
+            <div id="flymeService" class="rememberField" style="font-size:12px;display: none">
+                    <label class="pointer" for="acceptFlyme" tabindex="0">点击立即注册，即表示您同意并愿意遵守</label>
+                    <a href="/serviceAgreement" target="_blank" class="linkABlue">Flyme服务协议</a>
+                    <label class="pointer">和</label>
+                    <a href="http://www.meizu.com/legal.html" target="_blank" class="linkABlue">法律声明</a>
+        </div>
+            <div class="rememberField">
+                <span class="mzchkbox"><span class="checkboxPic check_unchk"><i class="i_icon"></i></span><input name="remember" id="remember" type="checkbox" value="1" style="display: none;"></span>
+                <label for="remember" tabindex="0">记住登录状态</label>
+                
+            </div>
+            <a id="login" class="fullBtnBlue">登录</a>
+            <a id="nextStep" class="fullBtnBlue register-btn" data-step="1" style="display: none">立即注册</a>
+            <div class="transferField">
+              <a class="go2forgetpwd linkABlue rememberFieldForA" href="#">忘记密码</a>
+               <a class="go2forgetpwd linkABlue oa" href="#">注册</a>
+
+            </div>
+            <a href="javascript:void(0)" id="qr-btn" class="qr-btn"></a>
+            <div id="qr-panel" class="qr-panel hide" style="height: 450px;">
+                <h3>扫描安全登录</h3>
+                <div class="qr-img-box">
+                    <img alt="" src="https://login.flyme.cn/mzQrShow?qrType=0&amp;_t=1535183846844">
+                </div>
+                <p class="tips">请使用最新Flyme系统相机扫码功能，扫码登录</p>
+                <p class="qr-success-tips hide">扫描成功，请在手机点击“确认登录”</p>
+            </div>
+       </div>
+	 </div>
+   <div id="flymeFooter" class="footerWrap">
+     <div class="footerInner">
+       <div class="footer-layer1">
+         <div class="footer-innerLink">
+           <a href="#">关于魅族</a>
+           <span></span>
+           <a href="#">工作机会</a>
+           <span></span>
+           <a href="#">联系我们</a>
+           <span></span>
+           <a href="#">法律声明</a>
+           <span></span>
+           <a href="#">常见问题</a>
+           <span></span>
+           <a href="#">简体中文</a>
+         </div>
+         <div class="footer-service">
+        <span class="service-label">客服热线</span>
+        <span class="service-num">400-788-3333</span>
+        <a id="service-online" class="service-online" href="javascript:void(0);" title="在线客服">在线客服</a>
+      </div>
+      <div class="footer-outerLink">
+        <a class="footer-sinaMblog" href="#"><i class="i_icon"></i></a>  
+        <a id="footer-weChat" class="footer-weChat" href="javascript:void(0);"><i class="i_icon"></i></a>
+        <a class="footer-qzone" href="#"><i class="i_icon"></i></a>
+      </div>
+       </div>
+       <div class="clear"></div>
+       <div class="copyrightWrap" id="flymeCopyright">
+       <div class="copyrightInner">
+       <span>©2018 Meizu Telecom Equipment Co., Ltd. All rights reserved.</span>
+       <a href="#" class="linkAGray">备案号: 粤ICP备13003602号-4</a>
+        <a href="#" class="linkAGray">经营许可证编号: 粤B2-20130198</a>
+         <a href="#" class="linkAGray">营业执照</a>
+          <a href="#" class="linkAGray"  style="background: url(images/ghs.png) no-repeat;background-size: 15px 14px;padding-left: 18px;background-position-y: center;">粤公网安备 44049102496076号</a>
+       </div>
+       </div>
+     </div>
+   </div>
+   <div id="wechatPic" style="left: 913.328px; top: 576px; display: none;"></div>
+
+</body>
+</html>

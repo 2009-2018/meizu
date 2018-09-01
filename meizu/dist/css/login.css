@@ -1,0 +1,468 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none;
+  cursor: pointer; }
+
+#content {
+  position: relative; }
+
+div, h1, h2, h3, h4, p, form, label, input, textarea, img, span, dl, ul, li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none; }
+
+.ucSimpleHeader {
+  height: auto;
+  padding-top: 28px;
+  padding-bottom: 40px;
+  margin: 0 auto;
+  position: relative;
+  max-width: 1200px; }
+
+.menzulogo {
+  float: left;
+  height: 20px;
+  width: 110px;
+  overflow: hidden;
+  display: block; }
+
+.menzulogo i {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: url(../images/base.png) -2px -4px no-repeat; }
+
+.banner-box {
+  position: relative;
+  overflow: hidden;
+  min-height: 750px;
+  max-height: 1080px;
+  background: linear-gradient(to bottom, #f8fcff, #f8fcff, #f8fcff); }
+
+.banner-box:before {
+  position: absolute;
+  content: ' ';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../images/banner.png) no-repeat center;
+  background-size: contain; }
+
+.banner-box .main-form {
+  right: 220px;
+  top: 10%;
+  width: 298px;
+  position: absolute;
+  background-color: #FFF;
+  padding: 35px 35px 10px;
+  border-radius: 2px; }
+
+.tab-title {
+  font-size: 18px;
+  margin-top: 35px;
+  width: 300px;
+  text-align: center; }
+
+.register-line {
+  border: 2px solid #b3abab;
+  height: 10px;
+  display: inline-block;
+  border-left: 1px;
+  margin-left: 32px;
+  margin-right: 32px;
+  line-height: 20px; }
+
+.tip-box {
+  position: relative;
+  height: 33px;
+  width: 100%;
+  background: #ffd1ca;
+  border: 1px solid #ffd1ca;
+  margin-top: 26px;
+  margin-bottom: 10px;
+  visibility: hidden; }
+
+.tip-box .err-ico {
+  background: url(../images/error-ico.png);
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  top: 10px;
+  left: 10px;
+  position: absolute; }
+
+.tip-box .tip-font {
+  color: #666;
+  font-size: 12px;
+  padding-left: 35px;
+  padding-right: 25px;
+  vertical-align: middle;
+  display: table-cell;
+  height: 33px;
+  width: 298px; }
+
+.tip-box .close-ico {
+  background: url(../images/close-ico.png);
+  background-repeat: no-repeat;
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  position: absolute;
+  top: 12px;
+  right: 10px; }
+
+.normalInput {
+  width: 276px;
+  height: 46px;
+  margin-bottom: 20px;
+  padding: 0px 10px;
+  line-height: 22px;
+  font-size: 14px;
+  border: 1px solid #dadada;
+  color: #474747;
+  position: relative;
+  outline: none;
+  overflow: visible; }
+
+.normalInput input {
+  width: 94%;
+  height: 46px;
+  line-height: 22px; }
+
+.normalInput .ipt-account {
+  color: #000000;
+  border: 0;
+  position: absolute;
+  outline: none; }
+
+span.inputTip {
+  position: absolute;
+  top: 13px;
+  left: 10px;
+  color: #909090;
+  font-size: 14px;
+  height: 22px;
+  line-height: 22px; }
+
+.normalInput {
+  width: 276px;
+  position: relative;
+  padding: 0px 10px;
+  height: 46px;
+  line-height: 22px;
+  font-size: 14px;
+  margin-bottom: 26px;
+  border: 1px solid #dadada;
+  outline: none;
+  color: #474747;
+  zoom: 1;
+  overflow: hidden; }
+
+.btn-focus {
+  border: 1px solid #32a5e7; }
+
+.inp-focus {
+  border: 0; }
+
+#password {
+  width: 100%;
+  display: inline-block;
+  /* height: 50px; */
+  line-height: 22px;
+  font-size: 14px;
+  outline: none;
+  color: #474747;
+  line-height: 50px\0; }
+
+.rememberField {
+  margin-bottom: 25px;
+  height: 24px;
+  line-height: 20px; }
+
+.mzchkbox, .mzradio {
+  cursor: pointer; }
+
+.checkboxPic {
+  width: 20px; }
+
+.checkboxPic {
+  display: inline-block;
+  width: 25px;
+  height: 20px;
+  line-height: 20px;
+  cursor: pointer;
+  vertical-align: middle;
+  overflow: hidden; }
+
+.check_unchk i {
+  background: url(../images/elements.png) no-repeat; }
+
+.check_unchk i {
+  background-position: -0px -127px;
+  _margin-left: 0px;
+  _margin-top: -127px; }
+
+.i_icon {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+.rememberField label {
+  margin-right: 7px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #7f7f7f; }
+
+a.fullBtnBlue {
+  width: 300px;
+  display: block;
+  height: 46px;
+  font-size: 14px;
+  line-height: 46px;
+  text-align: center;
+  margin-bottom: 10px;
+  outline: none;
+  cursor: pointer;
+  background-color: #32a5e7;
+  color: #fff;
+  border-radius: 2px; }
+
+a.fullBtnBlue:hover {
+  background-color: #2b8cc5;
+  color: #fff; }
+
+.transferField {
+  height: 19px;
+  margin-bottom: 5px; }
+
+a.linkABlue:link, a.linkABlue {
+  color: #32A5E7; }
+
+.go2forgetpwd {
+  float: right;
+  font-size: 14px; }
+
+.rememberFieldForA {
+  margin-left: 210px; }
+
+a.linkABlue:hover {
+  color: #008ec7; }
+
+.qr-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 35px;
+  height: 35px;
+  background: url(../images/qr.png) no-repeat center;
+  cursor: pointer; }
+
+.qr-panel {
+  position: absolute;
+  width: 100%;
+  height: 450px;
+  top: 60px;
+  left: 0;
+  background-color: #FFF;
+  z-index: 500; }
+
+.qr-panel h3 {
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+  font-weight: normal;
+  margin: 0; }
+
+.qr-panel .qr-img-box {
+  width: 300px;
+  height: 300px;
+  margin: 20px auto; }
+
+.qr-panel img {
+  max-width: 100%; }
+
+.qr-panel .tips {
+  text-align: center;
+  font-size: 16px;
+  color: #999; }
+
+.pc-btn {
+  background: url(../images/pc.png) no-repeat center; }
+
+.hide {
+  display: none !important; }
+
+.check_chk {
+  background: url(../images/elements.png) no-repeat;
+  background-position: -31px -127px;
+  _margin-left: -31px;
+  _margin-top: -127px; }
+
+.footerWrap {
+  bottom: 0;
+  width: 100%;
+  height: 130px;
+  border-top: solid 1px #E5E6E7;
+  color: black; }
+
+.footer-layer1 {
+  height: 50px;
+  line-height: 50px; }
+
+.footer-innerLink, .footer-outerLink {
+  float: left; }
+
+.footer-layer1 a {
+  color: black;
+  font-size: 14px; }
+
+.footer-innerLink span {
+  display: inline-block;
+  background-color: #888;
+  margin: 0px 5px;
+  width: 1px;
+  height: 10px; }
+
+.footerInner {
+  width: 1000px;
+  margin: 24px auto 30px; }
+
+.footer-service {
+  float: left;
+  margin-left: 36px;
+  font-size: 14px; }
+
+.service-label {
+  margin-right: 10px; }
+
+.service-num {
+  margin-right: 20px; }
+
+#service-online {
+  display: inline-block;
+  _margin-top: 16px;
+  height: 20px;
+  line-height: 18px;
+  width: 64px;
+  color: white;
+  background-color: #32a5e7;
+  border-radius: 2px;
+  text-align: center; }
+
+.footer-outerLink a {
+  margin-left: 10px;
+  display: inline-block;
+  overflow: hidden;
+  width: 32px;
+  height: 32px; }
+
+.footer-outerLink {
+  position: relative;
+  float: right;
+  padding-top: 9px; }
+
+.i_icon {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+.footer-outerLink i {
+  background: url(../images/base.png) no-repeat;
+  background-position: -218px -91px; }
+
+.footer-weChat i {
+  background-position: -302px -91px; }
+
+.footer-qzone i {
+  background-position: -344px -91px; }
+
+.clear {
+  content: "";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden; }
+
+.copyrightInner span {
+  color: #7f7f7f;
+  float: left;
+  font-size: 12px; }
+
+.copyrightInner a {
+  white-space: nowrap;
+  float: left;
+  color: #7f7f7f;
+  margin-left: 6px;
+  font-size: 12px; }
+
+#wechatPic {
+  position: absolute;
+  z-index: 1000;
+  width: 310px;
+  height: 270px;
+  background: url(../images/weixin.png) no-repeat; }
+
+.footer-sinaMblog:hover i {
+  background-position: -218px -137px; }
+
+.footer-weChat:hover i {
+  background-position: -302px -137px; }
+
+.footer-qzone:hover i {
+  background-position: -344px -137px; }
+
+.normalInput, .main-form .register-btn {
+  width: auto;
+  font-size: 14px;
+  display: block;
+  height: 46px;
+  line-height: 46px; }
+
+.show-cycode .cycode-selected {
+  display: inline-block;
+  width: 60px;
+  border-right: 1px solid #DDD;
+  cursor: pointer; }
+
+Form input {
+  line-height: 22px;
+  padding: 12px 0;
+  height: 22px; }
+
+.cycode-selected .ipt-cycode {
+  height: 20px;
+  line-height: 20px;
+  width: 60%;
+  color: grey;
+  text-align: center;
+  cursor: pointer; }
+
+.cycode-selectbox input {
+  vertical-align: middle;
+  font-size: 14px;
+  margin-bottom: 0 !important; }
+
+.cycode-selected .arrow-down {
+  display: inline-block;
+  width: 14px;
+  height: 8px;
+  background: url(../images/arrow-down.png) no-repeat center; }
+
+.cycode-box .ipt-phone, .show-cycode .ipt-account {
+  width: 74%;
+  text-indent: 8px; }
+
+#phone {
+  height: 22px; }
+
+body input, body textarea {
+  background-color: white;
+  outline: none; }
